@@ -14,7 +14,7 @@ while (xf-xs)>d or (xf-xs)<-d and n<100:
     yd=(eval(eq))
     deriv=(yup-yd)/(2*d)
     xs=xs-(y/deriv)
-    print(xs)
+    print(round(xs,8))
     n=n+1
 if n>99:
     print("sorry, we can't find a 0")
