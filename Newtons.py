@@ -1,7 +1,7 @@
 from math import *
 d=0.00000001
 eq=input("put in a function: ")
-xs=int(input("what is your first guess? "))
+xs=float(input("what is your first guess? "))
 xf=10000000
 n=0
 while (xf-xs)>d or (xf-xs)<-d and n<100:
