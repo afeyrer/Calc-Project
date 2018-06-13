@@ -1,6 +1,6 @@
 from math import *
 eq=input("This program will estimate the volume of a function rotated around the x axis or the y axis. Put in a function: ")
-k=input("x axis or y axis (type x or y) ")
+k=input("x axis or y axis? (type x or y): ")
 xs=float(input("what is the first limit of integration? "))
 xf=float(input("what is the second limit of integration? "))
 d=(xf-xs)/10000
